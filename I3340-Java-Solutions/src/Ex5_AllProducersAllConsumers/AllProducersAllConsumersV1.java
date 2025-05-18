@@ -18,7 +18,7 @@ import java.util.concurrent.locks.ReentrantLock;
  *
  * Queue size is limited to 10 elements.
  */
-public class AllProducersAllConsumers {
+public class AllProducersAllConsumersV1 {
 
     // Shared queue
     public static MyQueue q = new MyQueue();
